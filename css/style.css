@@ -3,19 +3,44 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header{
     background-color: aqua;
 } 
 
-.btn1{
+.btn1 {
      background-color:blueviolet
-     border: 10px;
-     padding: 15px 32px;
+     /*border; 10 px; 
+     padding; 15px;
      font-size: 12px;
      margin: auto;
-     cursor: pointer;
+     cursor: pointer*/
 }
 .btn1:hover{
     background-color:brown;
 }
 
+h1{
+    background-color:burlywood;
+
+    /*padding: 20px;*/
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding left: 25px;
+}
+.navbar{
+    padding: 20px;
+    list-style: none;
+}
+.navbar li {
+    display: inline;
+    padding: 2opx;
+    background-color:blueviolet;
+    border:5px;
+    margin: 25px;
+}
+.navbar li a{
+    text-decoration: none;
+    color:black;
+}
